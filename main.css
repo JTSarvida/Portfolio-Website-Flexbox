@@ -1,11 +1,132 @@
-html {
+ html {
+    font-family: 'Homemade Apple', cursive;
 }
 
 body {
-    background: url("https://tinyurl.com/yy5ypy8v") no-repeat center center fixed;
+    background: url("blackboard.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
 }
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+    grid-template-areas:
+    "h h h h h h h h h h h h"
+    "a a a a a a p p p p p p"
+    "a a a a a a p p p p p p"
+    "a a a a a a p p p p p p"
+    "a a a a a a p p p p p p"
+    "a a a a a a p p p p p p"
+    "e e e e e e c c c c c c"
+    "e e e e e e c c c c c c"
+    "e e e e e e c c c c c c"
+    "e e e e e e c c c c c c"
+    "e e e e e e c c c c c c"
+    "f f f f f f f f f f f f"
+}
+
+.header {
+    grid-area: h;
+}
+
+.about {
+    grid-area: a;
+    /* opacity: 0; */
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.about:hover {
+    opacity: 1;
+}
+
+.projects {
+    grid-area: p;
+    /* opacity: 0; */
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+
+  .projects:hover {
+    opacity: 1;
+  }
+  
+  .education {
+    grid-area: e;
+    /* opacity: 0; */
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+
+  .education:hover {
+      opacity: 1;
+  }
+
+  .contact {
+    grid-area: c;
+    /* opacity: 0; */
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+
+  .contact:hover {
+      opacity: 1;
+  }
+
+  .footer {
+    grid-area: f;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+.container > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  
+  }
+  
+  html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  
+
+
+  
