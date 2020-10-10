@@ -49,6 +49,10 @@ body {
 .about:hover {
     opacity: 1;
 }
+.about a:hover {
+    opacity: 0;
+    
+}
 
 .projects {
     grid-area: p;
@@ -125,7 +129,23 @@ a:hover {
     padding: 10px;
     margin: 0px;
   }
+
+  .gif {
+    opacity: 0;
+  }
+
+  /* Css for overlays over sections */
   
+  .container > section:nth-child(1n):hover {
+    background-image: url("animatedJoshNoBackground.gif");
+    background-position: center center;
+    background-size: cover;
+
+  }
+
+  .container > section:nth-child(3n):hover {
+    
+  }
   
 
 
