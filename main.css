@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url("blackboard.jpg") no-repeat center center fixed;
+    background: url("imgs/blackboard.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,7 +50,7 @@ body {
     opacity: 1;
 }
 .about a:hover {
-    opacity: 0;
+    /* opacity: 0; */
     
 }
 
@@ -112,7 +112,7 @@ a {
 }
 
 a:hover {
-    color: gray;
+    /* color: gray; */
 }
 
 .container > section {
@@ -137,14 +137,16 @@ a:hover {
   /* Css for overlays over sections */
   
   .container > section:nth-child(1n):hover {
-    background-image: url("animatedJoshNoBackground.gif");
+    background-image: url("imgs/animatedJoshNoBackground.gif");
     background-position: center center;
     background-size: cover;
 
   }
 
   .container > section:nth-child(3n):hover {
-    
+    background-image: url("imgs/ProjectGithubDrawn.gif");
+    background-position: center center;
+    background-size: cover;
   }
   
 
