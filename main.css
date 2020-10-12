@@ -101,19 +101,46 @@ body {
   .contact:hover {
       opacity: 1;
   }
+  
+  .social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .socialMedia-icon {
+    margin-top: .625em;
+	width: 40px;
+	height: 40px;
+    opacity: .6;
+    border-radius: 25px;
+  }
+
+  .socialMedia-icon:hover {
+    opacity: 1.0;
+  }
 
   .footer {
     grid-area: f;
-}
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    bottom: 0px;
+    margin-bottom: 0;
+    }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+  a {
+      text-decoration: none;
+      color: white;
+  }
 
-a:hover {
-    /* color: gray; */
-}
+  a:hover {
+      color: grey;
+  }
 
 .container > section {
     display: flex;
@@ -161,4 +188,43 @@ a:hover {
     background-size: cover;
   }
 
-  
+  /* Dropdown menu
+
+  /* Dropdown Button */
+.dropbtn {
+  color: white;
+  background: none;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family: 'Homemade Apple', cursive;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {opacity: 0.6}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
