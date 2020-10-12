@@ -149,6 +149,16 @@ a:hover {
     background-size: cover;
   }
   
+  .container > section:nth-child(4n):hover {
+    background-image: url("imgs/CapDiploma.gif");
+    background-position: center center;
+    background-size: cover;
+  }
 
+  .container > section:nth-child(5n):hover {
+    background-image: url("imgs/EmailDrawn.gif");
+    background-position: center center;
+    background-size: cover;
+  }
 
   
