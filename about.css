@@ -38,11 +38,6 @@ body {
 
 .intro {
     grid-area: i;
-    /* opacity: 0; */
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -81,6 +76,14 @@ body {
     opacity: 1.0;
   }
   
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: grey;
+  }
 .dropbtn {
     color: white;
     background: none;
