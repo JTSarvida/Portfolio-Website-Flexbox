@@ -72,11 +72,6 @@ body {
   
   .education {
     grid-area: e;
-    /* opacity: 0; */
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -88,11 +83,6 @@ body {
 
   .contact {
     grid-area: c;
-    /* opacity: 0; */
-    transition: opacity .5s ease-out;
-    -moz-transition: opacity .5s ease-out;
-    -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;
     max-width: 100%;
     height: auto;
     background-size: cover;

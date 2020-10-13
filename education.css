@@ -49,7 +49,7 @@ html, body {
     grid-area: h;
 }
 
-.cliScraper {
+.bishopWalsh {
     grid-area: a;
     max-width: 100%;
     height: auto;
@@ -58,7 +58,7 @@ html, body {
 }
 
 
-.crudAffirmations {
+.universityMaryland {
     grid-area: b;
     max-width: 100%;
     height: auto;
@@ -66,7 +66,7 @@ html, body {
     text-align: center;
 }
 
-.unityGame {
+.flatiron {
     grid-area: c;
     max-width: 100%;
     height: auto;
@@ -74,7 +74,7 @@ html, body {
     text-align: center;
 }
 
-.portfolioWebsite {
+.cognixiaJump {
     grid-area: d;
     max-width: 100%;
     height: auto;
@@ -165,42 +165,42 @@ html, body {
 
 
 @media only screen and (min-width: 1200px){
-    .beforeScraper:after {
-        content:"CLI Basketball Scraper"
+    .beforeWalsh:after {
+        content:"Bishop Walsh School"
     } 
     
-    .beforeScraper:hover:after {
-        content: "My first CLI Project with Ruby. Used Nokogiri to scrape the web for NBA data and used the CLI to ask users if they wanted info on specific players.";
+    .beforeWalsh:hover:after {
+        content: "I attended Bishop Walsh School from 2nd Grade to 12th Grade after my elementary school shut down. My favorite courses here were English, History, and Biology. During my time here I also was in theater, band, and on the soccer team. Our mascot was the Spartan.";
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
     }
 
-    .beforeCrud:after {
-        content:"CRUD Affirmations Blog"
+    .beforeMD:after {
+        content:"University of Maryland, College Park"
     } 
     
-    .beforeCrud:hover:after {
-        content: "My first CRUD Application, where we had to develop an application that allows users to Create, Read, Update, and Destroy data in the database. Also focused on user authentication.";
+    .beforeMD:hover:after {
+        content: "I attended University of Maryland, College Park from 2013 to 2017. I graduated with an English Literature Degree and Creative Writing Minor. During my time there I also was part of the Filipino Cultural Association and Mockappella";
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
     }
 
-    .beforeUnity:after {
-        content:"Undisclosed Unity Game"
+    .beforeFlatiron:after {
+        content:"Flatiron School"
     } 
     
-    .beforeUnity:hover:after {
+    .beforeFlatiron:hover:after {
         content: "Passion project with hometown friends and I. Currently working on the narrative and level design.";
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
     }
 
-    .beforePortfolio:after {
-        content: "Portfolio Website"
+    .beforeCognixia:after {
+        content: "Congixia JUMP"
     }
 
-    .beforePortfolio:hover:after {
-        content: "The very site that you are viewing! Was enspired by chalkboards because of my interest in education. Was limited by my lack of knowledge of Javascript, but was able to persevere through googling.";
+    .beforeCognixia:hover:after {
+        content: "The 6-10 Week training I am currently undergoing to help with my journey to become a Java Full-Stack Developer";
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: white;
     }
@@ -208,37 +208,36 @@ html, body {
 
 @media only screen and (max-width: 1200px){
     
-    .beforeScraper:after {
-        content: "CLI Basketball Scraper"
+    .beforeWalsh:after {
+        content: "Bishop Walsh School"
     }
     
-    .beforeScraper:hover:after {
+    .beforeWalsh:hover:after {
 
     }
 
-    .beforeCrud:after {
-        content: "CRUD Affirmations Blog"
+    .beforeMD:after {
+        content: "University of Maryland, College Park"
     }
 
-    .beforeCrud:hover:after {
+    .beforeMD:hover:after {
 
     }
 
-    .beforeUnity:after {
-        content: "Undisclosed Unity Game"
+    .beforeFlatiron:after {
+        content: "Flatiron School"
     }
     
-    .beforeUnity:hover:after {
+    .beforeFlatiron:hover:after {
 
     }
 
 
-
-    .beforePortfolio:after {
-        content: "Portfolio Website"
+    .beforeCognixia:after {
+        content: "Cognixia JUMP"
     }
 
-    .beforePortfolio:hover:after {
+    .beforeCognixia:hover:after {
 
     }
 

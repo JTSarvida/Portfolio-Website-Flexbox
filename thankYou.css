@@ -1,0 +1,144 @@
+html {
+    font-family: 'Homemade Apple', cursive;
+    color: white;
+}
+
+body {
+    background: url("imgs/blackboard.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template: repeat(12, 1fr) / repeat(12, 1fr);
+    grid-template-areas:
+    "h h h h h h h h h h h h"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "a a a a a a a a a a a a"
+    "f f f f f f f f f f f f"
+}
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+  }
+
+.container > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  
+  }
+
+.header {
+    grid-area: h;
+}
+
+.thankYou {
+    text-align: center;
+}
+
+.thankYouDescription {
+    grid-area: a;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+.footer {
+    position: absolute;
+    grid-area: f;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px 0;
+    bottom: 0px;
+    margin-bottom: 0;
+    color: white;
+    width: 100%;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .socialMedia-icon {
+    margin-top: .625em;
+	width: 40px;
+	height: 40px;
+    opacity: .6;
+    border-radius: 25px;
+  }
+
+  .socialMedia-icon:hover {
+    opacity: 1.0;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: grey;
+  }
+
+.dropbtn {
+    color: white;
+    background: none;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Homemade Apple', cursive;
+  
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {opacity: 0.6}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
